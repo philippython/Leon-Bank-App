@@ -12,8 +12,6 @@ from views.settings import AccountInformation
 from views.update_profile import UpdateProfile
 
 def router(page: Page):
-
-    print("YOU HAVE BEEN HACKED")
     return {
 
         "/" : View(

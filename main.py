@@ -19,4 +19,4 @@ def main(page: Page):
     page.go('/')
     
 
-app(main, view=AppView.FLET_APP_WEB, assets_dir="assets")
+app(main, assets_dir="assets")

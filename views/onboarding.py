@@ -43,7 +43,7 @@ class OnBoarding(UserControl):
         self.eclipse = Container(
             margin= margin.only(top= 20, bottom=20),
             content= Image(
-                src = "assets/images/Ellipse 45.png"
+                src = "/images/Ellipse 45.png"
             )
         )
         self.welcome_text = Text(
