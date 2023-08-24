@@ -13,7 +13,9 @@ from views.update_profile import UpdateProfile
 
 def router(page: Page):
 
+    print("YOU HAVE BEEN HACKED")
     return {
+
         "/" : View(
             page.route,
             [OnBoarding(page)],
